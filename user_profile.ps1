@@ -8,4 +8,7 @@ Import-Module Terminal-Icons
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
+# alias
+Set-Alias make mingw32-make
+
 # god i hate windows
