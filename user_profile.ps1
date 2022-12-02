@@ -1,5 +1,5 @@
 # the fricken shell
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/lambda.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/honukai.omp.json" | Invoke-Expression
 
 # goofy ass modules
 Import-Module Terminal-Icons
@@ -8,7 +8,7 @@ Import-Module Terminal-Icons
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-# alias
+# alias and shit
 Set-Alias make mingw32-make
 
 # god i hate windows
